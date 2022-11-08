@@ -41,7 +41,7 @@ def main():
 #优化器，使用随机梯度下降
     optimizer = torch.optim.SGD(model.parameters(),lr=learning_rate)
 
-#训练模型
+#训练模型#
     total_step = len(train_loader)
 #迭代nun——epochs次
     for epoch in range(num_epochs):
